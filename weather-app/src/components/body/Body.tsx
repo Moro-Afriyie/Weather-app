@@ -5,7 +5,11 @@ import "./body.scss";
 interface IBodyProps {}
 
 const Body: React.FunctionComponent<IBodyProps> = (props) => {
-  return <h1>Body</h1>;
+  return (
+    <div className="body">
+      <h1>Body</h1>
+    </div>
+  );
 };
 
 export default Body;

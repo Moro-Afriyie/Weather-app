@@ -5,7 +5,11 @@ import "./sidebar.scss";
 interface ISideBarProps {}
 
 const SideBar: React.FunctionComponent<ISideBarProps> = (props) => {
-  return <h1>Sidebar</h1>;
+  return (
+    <div className="sidebar">
+      <h1>Sidebar</h1>
+    </div>
+  );
 };
 
 export default SideBar;
