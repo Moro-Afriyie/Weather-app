@@ -1,10 +1,13 @@
 import React from "react";
 import "./App.scss";
+import Body from "./components/body/Body";
+import SideBar from "./components/sidebar/Sidebar";
 
 function App() {
   return (
     <main className="App">
-      <h1>Welcome</h1>
+      <SideBar />
+      <Body />
     </main>
   );
 }
