@@ -7,7 +7,13 @@ interface ISideBarProps {}
 const SideBar: React.FunctionComponent<ISideBarProps> = (props) => {
   return (
     <div className="sidebar">
-      <h1>Sidebar</h1>
+      <div className="sidebar__search">
+        <button className="search__btn">search for places</button>
+        <div className="gps">
+          <span className="material-icons">gps_fixed</span>
+        </div>
+      </div>
+      <div className="sidebar__cloud"></div>
     </div>
   );
 };
