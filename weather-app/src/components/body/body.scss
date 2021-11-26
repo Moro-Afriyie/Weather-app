@@ -69,9 +69,55 @@
     }
   }
   .weather__highlights {
+    .heading {
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 28px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #e7e7eb;
+    }
     border: 1px solid blue;
     .card {
       background-color: #1e213a;
+      max-width: 20rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1.5rem 1rem;
+      color: #e7e7eb;
+      .title {
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.1rem;
+        letter-spacing: 0em;
+        text-align: center;
+      }
+      .quantity {
+        display: flex;
+        p {
+          font-size: 4rem;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 4.7rem;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+
+        span {
+          align-self: flex-end;
+          font-size: 2.3rem;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 2.6rem;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+      }
     }
   }
 }
