@@ -74,7 +74,7 @@ const Body: React.FunctionComponent<IBodyProps> = (props) => {
             <p>7</p>
             <span>mph</span>
           </div>
-          <p className="icon">7mph</p>
+          <p className="icon">WSW</p>
         </div>
       </div>
     </div>
