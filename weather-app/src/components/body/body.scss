@@ -1,4 +1,19 @@
 .body {
   flex: 1;
   height: 100%;
+  .header {
+    border: 1px solid red;
+  }
+  .week__weather {
+    border: 1px solid green;
+    .weather__card {
+      background-color: #1e213a;
+    }
+  }
+  .weather__highlights {
+    border: 1px solid blue;
+    .card {
+      background-color: #1e213a;
+    }
+  }
 }
