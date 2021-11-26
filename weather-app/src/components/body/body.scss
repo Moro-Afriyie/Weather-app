@@ -1,6 +1,14 @@
 .body {
   flex: 1;
   height: 100%;
+  .container {
+    max-width: 50rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 2rem;
+  }
   .header {
     border: 1px solid red;
     display: flex;
@@ -31,8 +39,11 @@
       background-color: #e7e7eb;
     }
   }
-  .week__weather {
+  .weekly__weather {
     border: 1px solid green;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1.5rem;
     .weather__card {
       background-color: #1e213a;
       max-width: 8rem;
@@ -79,9 +90,14 @@
       color: #e7e7eb;
     }
     border: 1px solid blue;
+    .card__container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr 0.5fr;
+      gap: 1rem;
+    }
     .card {
       background-color: #1e213a;
-      max-width: 20rem;
       display: flex;
       flex-direction: column;
       align-items: center;
