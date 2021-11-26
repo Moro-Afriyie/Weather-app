@@ -9,7 +9,7 @@ const Body: React.FunctionComponent<IBodyProps> = (props) => {
   return (
     <div className="body">
       <header className="header">
-        <div className="celcius">
+        <div className="celcius active">
           <span>&#8451;</span>
         </div>
         <div className="farenheit">

@@ -3,6 +3,31 @@
   height: 100%;
   .header {
     border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    .celcius,
+    .farenheit {
+      width: 2.5rem;
+      height: 2.5rem;
+      background-color: #585676;
+      color: #e7e7eb;
+      border-radius: 50%;
+      display: grid;
+      place-content: center;
+      span {
+        font-family: "Raleway", sans-serif;
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.3rem;
+        text-align: center;
+      }
+    }
+    .active {
+      color: #110e3c;
+      background-color: #e7e7eb;
+    }
   }
   .week__weather {
     border: 1px solid green;
