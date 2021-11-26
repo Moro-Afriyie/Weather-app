@@ -32,6 +32,9 @@
       border-radius: 50%;
       background-color: rgba(255, 255, 255, 0.2);
       box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+      span {
+        font-size: 1.5rem;
+      }
     }
   }
   p {
@@ -54,7 +57,7 @@
       display: grid;
       place-items: center;
       img {
-        height: 9rem;
+        height: 8.5rem;
         object-fit: contain;
       }
     }
@@ -63,14 +66,14 @@
       justify-content: center;
       flex: 0.2;
       .temperature {
-        font-size: 7.5rem;
+        font-size: 7rem;
         font-weight: 500;
         color: #e7e7eb;
       }
       span {
         color: #88869d;
         font-family: "Raleway", sans-serif;
-        font-size: 3rem;
+        font-size: 2.5rem;
         align-self: flex-end;
       }
     }
