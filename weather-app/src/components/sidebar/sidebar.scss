@@ -44,11 +44,51 @@
     color: #88869d;
   }
   .sidebar__details {
-    border: 1px solid red;
     flex: 1 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    .weather__icon {
+      margin-bottom: 2rem;
+      flex: 0.6;
+      display: grid;
+      place-items: center;
+      img {
+        height: 9rem;
+        object-fit: contain;
+      }
+    }
+    .weather__temperature {
+      display: flex;
+      justify-content: center;
+      flex: 0.2;
+      .temperature {
+        font-size: 7.5rem;
+        font-weight: 500;
+        color: #e7e7eb;
+      }
+      span {
+        color: #88869d;
+        font-family: "Raleway", sans-serif;
+        font-size: 3rem;
+        align-self: flex-end;
+      }
+    }
+    .weather__description {
+      margin-top: 2rem;
+      flex: 0.2;
+
+      p {
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: center;
+      }
+    }
   }
   .sidebar__location {
-    border: 1px solid white;
     display: flex;
     gap: 0.5rem;
     justify-content: center;
@@ -57,7 +97,6 @@
     }
   }
   .sidebar__date {
-    border: 1px solid yellow;
     display: flex;
     gap: 1rem;
     align-items: center;

@@ -1,5 +1,6 @@
 import * as React from "react";
 import "./sidebar.scss";
+import rainyIcon from "../../assets/Shower.png";
 
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
 interface ISideBarProps {}
@@ -13,7 +14,19 @@ const SideBar: React.FunctionComponent<ISideBarProps> = (props) => {
           <span className="material-icons">gps_fixed</span>
         </div>
       </div>
-      <div className="sidebar__details"></div>
+      <div className="sidebar__details">
+        <div className="weather__icon">
+          <img src={rainyIcon} alt="rainy" />
+        </div>
+        <div className="weather__temperature">
+          <p className="temperature">15</p>
+          <span className="degreecelcius">&#8451;</span>
+          {/* <span className="degreefarenheit">&#8457;</span> */}
+        </div>
+        <div className="weather__description">
+          <p>Shower</p>
+        </div>
+      </div>
       <div className="sidebar__date">
         <p>Today</p> . <p>Fri, 5 Jun</p>
       </div>
