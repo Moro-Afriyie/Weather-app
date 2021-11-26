@@ -3,27 +3,25 @@
   background-color: #1e213a;
   background-size: cover;
   background-position: center;
-  padding: 1.5rem;
-  .sidebar__cloud {
-    // height: 20rem;
-    // background: url("../../assets/Cloud-background.png") #1e213a;
-    // background-size: contain;
-    // background-position: center;
-    // background-repeat: no-repeat;
-  }
+  padding: 2rem 1.5rem 1rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
   .sidebar__search {
     display: flex;
     justify-content: space-between;
     align-items: center;
     .search__btn {
       background-color: #6e707a;
-      text-transform: capitalize;
       color: #e7e7eb;
       font-family: "Raleway", sans-serif;
       border: none;
       width: 10.1rem;
       height: 2.5rem;
+      font-size: 1rem;
+      font-weight: 100;
       box-shadow: 0px 4px 4px 0px #00000040;
+      cursor: pointer;
     }
     .gps {
       width: 2.5rem;
@@ -35,5 +33,35 @@
       background-color: rgba(255, 255, 255, 0.2);
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
+  }
+  p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #88869d;
+  }
+  .sidebar__details {
+    border: 1px solid red;
+    flex: 1 0;
+  }
+  .sidebar__location {
+    border: 1px solid white;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    span {
+      color: #88869d;
+    }
+  }
+  .sidebar__date {
+    border: 1px solid yellow;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    color: #88869d;
   }
 }
