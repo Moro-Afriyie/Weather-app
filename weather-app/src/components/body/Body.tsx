@@ -10,10 +10,16 @@ const Body: React.FunctionComponent<IBodyProps> = (props) => {
     <div className="body">
       <header className="header">
         <div className="celcius active">
-          <span>&#8451;</span>
+          <sup>
+            <span>&#176;</span>
+          </sup>
+          <p>C</p>
         </div>
         <div className="farenheit">
-          <span>&#8457;</span>
+          <sup>
+            <span>&#176;</span>
+          </sup>
+          <p>F</p>
         </div>
       </header>
       <div className="week__weather">
@@ -45,11 +51,17 @@ const Body: React.FunctionComponent<IBodyProps> = (props) => {
           <div className="temperature">
             <div className="max">
               <p>16</p>
-              <span>&#8451;</span>
+              <sup>
+                <span>&#176;</span>
+              </sup>
+              <p>C</p>
             </div>
             <div className="min">
-              <p>16</p>
-              <span>&#8451;</span>
+              <p>11</p>
+              <sup>
+                <span>&#176;</span>
+              </sup>
+              <p>C</p>
             </div>
           </div>
         </div>

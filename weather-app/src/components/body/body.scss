@@ -8,13 +8,15 @@
     justify-content: flex-end;
     .celcius,
     .farenheit {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       width: 2.5rem;
       height: 2.5rem;
       background-color: #585676;
       color: #e7e7eb;
       border-radius: 50%;
-      display: grid;
-      place-content: center;
+      p,
       span {
         font-family: "Raleway", sans-serif;
         font-size: 1.2rem;
@@ -33,6 +35,37 @@
     border: 1px solid green;
     .weather__card {
       background-color: #1e213a;
+      max-width: 8rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      padding: 1rem;
+      align-items: center;
+      justify-content: center;
+      img {
+        height: 3.9rem;
+      }
+      .temperature {
+        display: flex;
+        gap: 1rem;
+        .min,
+        .max {
+          display: flex;
+          p,
+          span {
+            font-family: "Raleway", sans-serif;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 1.2rem;
+            letter-spacing: 0em;
+            text-align: left;
+          }
+        }
+        .min {
+          color: #a09fb1;
+        }
+      }
     }
   }
   .weather__highlights {
