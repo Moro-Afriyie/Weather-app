@@ -13,7 +13,6 @@
     gap: 2rem;
   }
   .header {
-    border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -45,7 +44,6 @@
     }
   }
   .weekly__weather {
-    border: 1px solid green;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 1.5rem;
@@ -95,7 +93,6 @@
       color: #e7e7eb;
       margin-bottom: 2.5rem;
     }
-    border: 1px solid blue;
     .card__container {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
