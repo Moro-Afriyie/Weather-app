@@ -63,10 +63,10 @@ const Body: React.FunctionComponent<IBodyProps> = (props) => {
               <p className="icon">WSW</p>
             </div>
             <div className="card">
-              <p className="title">Wind Status</p>
+              <p className="title">Humidity</p>
               <div className="quantity">
-                <p>7</p>
-                <span>mph</span>
+                <p>84</p>
+                <span>%</span>
               </div>
               <p className="icon">WSW</p>
             </div>
