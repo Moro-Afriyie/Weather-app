@@ -1,5 +1,5 @@
 import * as React from "react";
-
+import "./progressBar.scss";
 interface IProgressBarProps {
   humidity: string;
 }

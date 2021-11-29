@@ -71,6 +71,7 @@ const Body: React.FunctionComponent<IBodyProps> = (props) => {
               </div>
               <div className="progressbar">
                 <ProgressBar humidity="80" />
+                <p className="icon">WSW</p>
               </div>
             </div>
             <div className="card2">
