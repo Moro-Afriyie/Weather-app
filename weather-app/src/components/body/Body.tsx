@@ -55,6 +55,7 @@ const Body: React.FunctionComponent<IBodyProps> = (props) => {
         <div className="weather__highlights">
           <p className="heading">Today&apos;s Highlights</p>
           <div className="card__container">
+            {/*wind speed*/}
             <div className="card">
               <p className="title">Wind Status</p>
               <div className="quantity">
@@ -65,10 +66,10 @@ const Body: React.FunctionComponent<IBodyProps> = (props) => {
                 <div className="wind__icon">
                   <span className="material-icons">near_me</span>
                 </div>
-
                 <p className="icon">WSW</p>
               </div>
             </div>
+            {/*humidity*/}
             <div className="card">
               <p className="title">Humidity</p>
               <div className="quantity">
@@ -85,6 +86,7 @@ const Body: React.FunctionComponent<IBodyProps> = (props) => {
                 <p className="percentage">%</p>
               </div>
             </div>
+            {/*visibility*/}
             <div className="card2">
               <p className="title">visibility</p>
               <div className="quantity">
@@ -92,6 +94,7 @@ const Body: React.FunctionComponent<IBodyProps> = (props) => {
                 <span>miles</span>
               </div>
             </div>
+            {/*Air Pressure*/}
             <div className="card2">
               <p className="title">Air Pressure</p>
               <div className="quantity">
