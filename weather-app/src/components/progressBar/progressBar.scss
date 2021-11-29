@@ -1,16 +1,14 @@
 .progress {
-  background-color: #d8d8d8;
+  background-color: #e7e7eb;
   border-radius: 20px;
   position: relative;
-  margin: 15px 0;
-  height: 30px;
-  width: 300px;
-  border: 1px solid red;
+  margin: 5px 0;
+  height: 10px;
+  width: 100%;
 }
 
 .progress-done {
   background-color: #ffec65;
-  box-shadow: 0 3px 3px -5px #f2709c, 0 2px 5px #f2709c;
   border-radius: 20px;
   color: #fff;
   display: flex;

@@ -70,8 +70,13 @@ const Body: React.FunctionComponent<IBodyProps> = (props) => {
                 <span>%</span>
               </div>
               <div className="progressbar">
+                <div className="progress__label">
+                  <p>0</p>
+                  <p className="middle">50</p>
+                  <p className="last">100</p>
+                </div>
                 <ProgressBar humidity="80" />
-                <p className="icon">WSW</p>
+                <p className="percentage">%</p>
               </div>
             </div>
             <div className="card2">

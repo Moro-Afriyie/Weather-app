@@ -145,6 +145,27 @@
         letter-spacing: 0em;
         text-align: left;
       }
+      .progressbar {
+        // width: 100%;
+        width: 80%;
+        color: #a09fb1;
+        .progress__label {
+          display: flex;
+
+          & > * {
+            flex-basis: 100%;
+          }
+          .middle {
+            text-align: center;
+          }
+          .last {
+            text-align: right;
+          }
+        }
+      }
+      .percentage {
+        text-align: right;
+      }
     }
 
     .card2 {
