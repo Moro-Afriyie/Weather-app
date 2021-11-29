@@ -61,7 +61,13 @@ const Body: React.FunctionComponent<IBodyProps> = (props) => {
                 <p>7</p>
                 <span>mph</span>
               </div>
-              <p className="icon">WSW</p>
+              <div className="wind__info">
+                <div className="wind__icon">
+                  <span className="material-icons">near_me</span>
+                </div>
+
+                <p className="icon">WSW</p>
+              </div>
             </div>
             <div className="card">
               <p className="title">Humidity</p>

@@ -166,6 +166,24 @@
       .percentage {
         text-align: right;
       }
+      .wind__info {
+        display: flex;
+        gap: 0.6rem;
+        align-items: center;
+        .wind__icon {
+          width: 1.8rem;
+          height: 1.8rem;
+          border-radius: 50%;
+          color: #e7e7eb;
+          background-color: #616475;
+          display: grid;
+          place-content: center;
+          span {
+            font-size: 1rem;
+            transform: rotate(-180deg);
+          }
+        }
+      }
     }
 
     .card2 {
