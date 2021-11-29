@@ -1,6 +1,7 @@
 import * as React from "react";
 import "./body.scss";
 import rainyIcon from "../../assets/Shower.png";
+import ProgressBar from "../progressBar/ProgressBar";
 
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
 interface IBodyProps {}
@@ -68,7 +69,9 @@ const Body: React.FunctionComponent<IBodyProps> = (props) => {
                 <p>84</p>
                 <span>%</span>
               </div>
-              <p className="icon">progress bar</p>
+              <div className="progressbar">
+                <ProgressBar humidity="80" />
+              </div>
             </div>
             <div className="card2">
               <p className="title">visibility</p>
