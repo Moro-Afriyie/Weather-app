@@ -70,14 +70,14 @@ const Body: React.FunctionComponent<IBodyProps> = (props) => {
               </div>
               <p className="icon">progress bar</p>
             </div>
-            <div className="card">
+            <div className="card2">
               <p className="title">visibility</p>
               <div className="quantity">
                 <p>6,4</p>
                 <span>miles</span>
               </div>
             </div>
-            <div className="card">
+            <div className="card2">
               <p className="title">Air Pressure</p>
               <div className="quantity">
                 <p>998 </p>

@@ -93,6 +93,7 @@
       letter-spacing: 0em;
       text-align: left;
       color: #e7e7eb;
+      margin-bottom: 2.5rem;
     }
     border: 1px solid blue;
     .card__container {
@@ -108,6 +109,54 @@
       align-items: center;
       justify-content: center;
       gap: 2rem;
+      padding: 1rem 1rem 1.5rem 1rem;
+      color: #e7e7eb;
+      .title {
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.1rem;
+        letter-spacing: 0em;
+        text-align: center;
+      }
+      .quantity {
+        display: flex;
+        p {
+          font-size: 4rem;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 4.7rem;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+
+        span {
+          align-self: flex-end;
+          font-size: 2.3rem;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 2.6rem;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+      }
+      .icon {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 0.9rem;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+    }
+
+    .card2 {
+      background-color: #1e213a;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
       padding: 1rem 1rem;
       color: #e7e7eb;
       .title {
@@ -120,6 +169,7 @@
       }
       .quantity {
         display: flex;
+        gap: 1rem;
         p {
           font-size: 4rem;
           font-style: normal;
