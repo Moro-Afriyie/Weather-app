@@ -75,7 +75,7 @@ const Body: React.FunctionComponent<IBodyProps> = (props) => {
                   <p className="middle">50</p>
                   <p className="last">100</p>
                 </div>
-                <ProgressBar humidity="80" />
+                <ProgressBar humidity="84" />
                 <p className="percentage">%</p>
               </div>
             </div>
