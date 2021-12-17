@@ -3,15 +3,18 @@
   margin: 0;
   padding: 0;
 }
+html {
+  height: 100%;
+}
 body {
   font-family: "Raleway", sans-serif;
-  min-height: 100vh;
+  min-height: 100%;
+  background-color: #100e1d;
+  color: #e7e7eb;
 }
 
 .container {
   display: flex;
-  color: #e7e7eb;
-  background-color: #100e1d;
   height: 100%;
-  min-height: 100vh;
+  min-height: 100%;
 }
