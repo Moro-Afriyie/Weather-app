@@ -25,18 +25,14 @@ const Search: React.FunctionComponent<ISearchProps> = (props) => {
         </div>
       </div>
       <div className="search__results">
-        <div className="result-item">
-          <p>London</p>
-          <span className="material-icons">navigate_next</span>
-        </div>
-        <div className="result-item">
-          <p>London</p>
-          <span className="material-icons">navigate_next</span>
-        </div>
-        <div className="result-item">
-          <p>London</p>
-          <span className="material-icons">navigate_next</span>
-        </div>
+        {[1, 2, 3].map((item) => {
+          return (
+            <div className="result-item" key={item}>
+              <p>London</p>
+              <span className="material-icons">navigate_next</span>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
