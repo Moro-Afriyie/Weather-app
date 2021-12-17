@@ -5,7 +5,41 @@ import "./search.scss";
 interface ISearchProps {}
 
 const Search: React.FunctionComponent<ISearchProps> = (props) => {
-  return <h1>Search</h1>;
+  return (
+    <div className="search-container">
+      <div className="close">
+        <span className="material-icons close-btn">close</span>
+      </div>
+      <div className="search__input">
+        <div className="search">
+          <span className="material-icons">search</span>
+          <input
+            type="text"
+            name="search"
+            id="search"
+            placeholder="Search location"
+          />
+        </div>
+        <div className="search-btn">
+          <button>Search</button>
+        </div>
+      </div>
+      <div className="search__results">
+        <div className="result-item">
+          <p>London</p>
+          <span className="material-icons">navigate_next</span>
+        </div>
+        <div className="result-item">
+          <p>London</p>
+          <span className="material-icons">navigate_next</span>
+        </div>
+        <div className="result-item">
+          <p>London</p>
+          <span className="material-icons">navigate_next</span>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Search;
