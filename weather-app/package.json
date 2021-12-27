@@ -46,6 +46,9 @@
     ]
   },
   "devDependencies": {
+    "@types/react-redux": "^7.1.21",
+    "@types/redux": "^3.6.0",
+    "@types/redux-thunk": "^2.1.0",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "eslint": "^7.32.0",
