@@ -1,1 +1,1 @@
-export const TOGGLE_SEARCH = "TOGGLESEARCH";
+export const TOGGLE_SEARCH = "TOGGLE_SEARCH";
