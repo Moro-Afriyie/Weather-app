@@ -13,12 +13,8 @@ const SideBar: React.FunctionComponent<ISideBarProps> = (props) => {
     (state: IRootState) => state.toggleSearch.toggleSearch
   );
 
-  console.log(toggleSearch);
   return (
-    <div className="sidebar">
-      {/* <SideBarInfo /> */}
-      <Search />
-    </div>
+    <div className="sidebar">{toggleSearch ? <Search /> : <SideBarInfo />}</div>
   );
 };
 

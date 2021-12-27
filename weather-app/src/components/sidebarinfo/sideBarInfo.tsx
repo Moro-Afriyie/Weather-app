@@ -1,15 +1,23 @@
 import * as React from "react";
+import { useDispatch } from "react-redux";
 import rainyIcon from "../../assets/Shower.png";
+import { toggleSearch } from "../../store/actions/toggleSearchActions";
 import "./sideBarInfo.scss";
 
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
 interface ISideBarInfoProps {}
 
 const SideBarInfo: React.FunctionComponent<ISideBarInfoProps> = (props) => {
+  const dispatch = useDispatch();
   return (
     <div className="sidebar__info">
       <div className="sidebar__search">
-        <button className="search__btn">Search for places</button>
+        <button
+          className="search__btn"
+          onClick={() => dispatch(toggleSearch())}
+        >
+          Search for places
+        </button>
         <div className="gps">
           <span className="material-icons">gps_fixed</span>
         </div>

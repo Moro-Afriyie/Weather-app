@@ -11,7 +11,7 @@ export const toggleSearchReducer = (state = initialState, action: Action) => {
     case TOGGLE_SEARCH:
       return {
         ...state,
-        toggleTheme: !state.toggleSearch,
+        toggleSearch: !state.toggleSearch,
       };
     default:
       return state;
