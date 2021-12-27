@@ -8,6 +8,9 @@
   flex-direction: column;
   gap: 2rem;
   overflow: auto;
+  @media screen and (max-width: 900px) {
+    gap: 3rem;
+  }
   .sidebar__search {
     display: flex;
     justify-content: space-between;
@@ -96,6 +99,9 @@
     display: flex;
     gap: 0.5rem;
     justify-content: center;
+    @media screen and (max-width: 900px) {
+      margin-bottom: 3rem;
+    }
     span {
       color: #88869d;
     }
