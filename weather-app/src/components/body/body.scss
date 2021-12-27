@@ -13,6 +13,7 @@
     flex-direction: column;
     margin: auto;
     gap: 2rem;
+    margin-bottom: 5rem;
   }
   .header {
     display: flex;
@@ -20,6 +21,9 @@
     justify-content: flex-end;
     gap: 0.5rem;
     margin-top: 1rem;
+    @media screen and (max-width: 900px) {
+      display: none;
+    }
     .celcius,
     .farenheit {
       display: flex;
@@ -49,6 +53,9 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 1.5rem;
+    @media screen and (max-width: 900px) {
+      margin-top: 3rem;
+    }
     .weather__card {
       background-color: #1e213a;
       max-width: 7rem;
@@ -100,6 +107,12 @@
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: 1fr 0.5fr;
       gap: 3rem;
+      @media screen and (max-width: 900px) {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+      }
     }
     .card {
       background-color: #1e213a;
@@ -110,6 +123,10 @@
       gap: 1rem;
       padding: 1rem 1rem 1.5rem 1rem;
       color: #e7e7eb;
+      @media screen and (max-width: 900px) {
+        max-width: 18rem;
+        width: 100%;
+      }
       .title {
         font-size: 1rem;
         font-style: normal;
@@ -197,6 +214,10 @@
       gap: 1rem;
       padding: 1rem 1rem;
       color: #e7e7eb;
+      @media screen and (max-width: 900px) {
+        max-width: 18rem;
+        width: 100%;
+      }
       .title {
         font-size: 1rem;
         font-style: normal;
