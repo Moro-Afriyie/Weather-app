@@ -9,8 +9,8 @@ interface ISideBarProps {}
 const SideBar: React.FunctionComponent<ISideBarProps> = (props) => {
   return (
     <div className="sidebar">
-      <SideBarInfo />
-      {/* <Search /> */}
+      {/* <SideBarInfo /> */}
+      <Search />
     </div>
   );
 };
