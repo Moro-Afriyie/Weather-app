@@ -1,16 +1,13 @@
 import * as React from "react";
-import { useDispatch } from "react-redux";
-import { toggleSearch } from "../../store/actions/toggleSearchActions";
 import "./search.scss";
 
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
 interface ISearchProps {}
 
 const Search: React.FunctionComponent<ISearchProps> = (props) => {
-  const dispatch = useDispatch();
   return (
     <div className="search-container">
-      <div className="close" onClick={() => dispatch(toggleSearch())}>
+      <div className="close">
         <span className="material-icons close-btn">close</span>
       </div>
       <div className="search__input">
